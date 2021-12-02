@@ -12,8 +12,8 @@ import java.util.List;
 public class mainController extends HttpServlet {
     private static final String DRIVER_NAME = "com.mysql.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/lab3web";
-    private static final String ID = "root";
-    private static final String PASS = "admin";
+    private static final String ID = "";
+    private static final String PASS = "";
 
     Connection conn;
     Statement st;
